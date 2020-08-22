@@ -58,7 +58,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 col-md-12">
                     <div id="main_category">
                         <a href="">所有商品</a>
                         <a href="">尊爵套組</a>
@@ -222,7 +222,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 col-md-12">
                     <div id="discount">
                         <div class="main">
                             <div class="title">
@@ -310,16 +310,97 @@
                             </div>
                         </div>
                         <div class="ad">
-                            1
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./image/a1.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="recommend">
+                        <div class="title">
+                            猜你喜歡
+                        </div>
+                        <div class="content">
+                            <a href="" class="item">
+                                <div class="img">
+                                    <img src="./image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="item">
+                                <div class="img">
+                                    <img src="./image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="item">
+                                <div class="img">
+                                    <img src="./image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="item">
+                                <div class="img">
+                                    <img src="./image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="item">
+                                <div class="img">
+                                    <img src="./image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
     <?php include './includes/footer_js.php' ?>
 </body>
 
