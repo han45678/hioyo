@@ -10,7 +10,7 @@
                 <div id="searchBar">
                     <div id="search">
                         <form action="">
-                            <input type="text">
+                            <input type="text" placeholder="搜尋商品名稱">
                             <button type="submit">搜尋</button>
                         </form>
                     </div>
