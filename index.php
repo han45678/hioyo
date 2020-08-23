@@ -68,15 +68,15 @@
                         <a href="">活動專區</a>
                     </div>
                     <div id="banner">
-                        <div class="item">
+                        <a href="" class="item">
                             <img src="./image/banner.jpg" alt="banner">
-                        </div>
-                        <div class="item">
+                        </a>
+                        <a href="" class="item">
                             <img src="./image/banner.jpg" alt="banner">
-                        </div>
-                        <div class="item">
+                        </a>
+                        <a href="" class="item">
                             <img src="./image/banner.jpg" alt="banner">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -310,24 +310,24 @@
                             </div>
                         </div>
                         <div class="ad">
-                            <div class="item">
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
-                            <div class="item">
+                            </a>
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
-                            <div class="item">
+                            </a>
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
-                            <div class="item">
+                            </a>
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
-                            <div class="item">
+                            </a>
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
-                            <div class="item">
+                            </a>
+                            <a href="" class="item">
                                 <img src="./image/a1.gif" alt="">
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div id="recommend">
@@ -396,6 +396,9 @@
                                 </div>
                             </a>
                         </div>
+                    </div>
+                    <div id="praise">
+                        <div class="title">好評推薦</div>
                     </div>
                 </div>
             </div>
