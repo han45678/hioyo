@@ -1,12 +1,13 @@
 <header id="header">
     <div class="container">
-        <div class="row align-items-md-center">
-            <div class="col-md-2">
-                <a href="">
-                    <img src="./image/logo.png" alt="">
-                </a>
+        <div class="row justify-content-md-center align-items-md-center">
+            <div id="mobile_button">
+                <span class="icon"></span>
+                <span class="icon"></span>
+                <span class="icon"></span>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-2 col-lg-2 col-sm-12"><a id="logo" href="./"></a></div>
+            <div class="col-md-5 col-lg-10 col-sm-12">
                 <div id="searchBar">
                     <div id="search">
                         <form action="">

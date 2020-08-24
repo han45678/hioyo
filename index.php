@@ -8,7 +8,7 @@
 <body>
     <?php include './includes/topBar.php' ?>
     <?php include './includes/header.php' ?>
-    <main>
+    <main id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -58,7 +58,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-10 col-md-12">
+                <div id="category_order" class="col-lg-10 col-md-12">
                     <div id="main_category">
                         <a href="">所有商品</a>
                         <a href="">尊爵套組</a>
@@ -399,11 +399,82 @@
                     </div>
                     <div id="praise">
                         <div class="title">好評推薦</div>
+                        <div class="content">
+                            <div class="item">
+                                <h3>主婦最需要</h3>
+                                <div class="img">
+                                    <img src="./image/p3.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>特賣專區</p>
+                                    <p>限時買一送一</p>
+                                    <a href="">
+                                        <span>立即搶購</span>
+                                        <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <desc>Created with Lunacy</desc>
+                                            <path d="M4 0L8 8L0 8L4 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 8.5 0.5)" id="Triangle" stroke="none" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>主婦最需要</h3>
+                                <div class="img">
+                                    <img src="./image/p3.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>特賣專區</p>
+                                    <p>限時買一送一</p>
+                                    <a href="">
+                                        <span>立即搶購</span>
+                                        <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <desc>Created with Lunacy</desc>
+                                            <path d="M4 0L8 8L0 8L4 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 8.5 0.5)" id="Triangle" stroke="none" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>主婦最需要</h3>
+                                <div class="img">
+                                    <img src="./image/p3.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>特賣專區</p>
+                                    <p>限時買一送一</p>
+                                    <a href="">
+                                        <span>立即搶購</span>
+                                        <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <desc>Created with Lunacy</desc>
+                                            <path d="M4 0L8 8L0 8L4 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 8.5 0.5)" id="Triangle" stroke="none" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <h3>主婦最需要</h3>
+                                <div class="img">
+                                    <img src="./image/p3.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>特賣專區</p>
+                                    <p>限時買一送一</p>
+                                    <a href="">
+                                        <span>立即搶購</span>
+                                        <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <desc>Created with Lunacy</desc>
+                                            <path d="M4 0L8 8L0 8L4 0Z" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 8.5 0.5)" id="Triangle" stroke="none" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <?php include './includes/footer.php' ?>
     <?php include './includes/footer_js.php' ?>
 </body>
 
