@@ -1190,4 +1190,209 @@
             }
         }
     }
+
+    #banner {
+
+        .item {
+            height: 235px;
+        }
+    }
+
+    #main_category {
+        padding: 0 15px;
+        margin-top: 20px;
+
+        &::after, &::before {
+            display: none;
+        }
+
+        a {
+            line-height: 44px;
+            width: 79px;
+            height: 44px;
+            font-size: 11px;
+            border-radius: 10px;
+            margin-left: 7.5px;
+            margin-right: 7.5px;
+        }
+    }
+
+    #discount {
+        margin-top: 24px;
+
+        .main {
+
+            .title {
+                height: 49px;
+                font-size: 12px;
+                line-height: 49px;
+                letter-spacing: 1.193877px;
+            }
+
+            .content {
+                padding: 30px;
+
+                .item {
+                    margin-top: 10px;
+                    width: calc(50% - 16px);
+
+                    &:nth-child(1),
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(4) {
+                        margin-top: 30px;
+                        display: block;
+                    }
+
+                    .remainder {
+                        width: 64px;
+                        height: 21px;
+                        font-size: 11px;
+                        line-height: 21px;
+                        letter-spacing: 1.094388px;
+                        top: 10px;
+                    }
+
+                    h3 {
+                        font-size: 11px;
+                        line-height: 14px;
+                        letter-spacing: 1.094388px;
+                        text-align: center;
+                    }
+                    .price{
+                        text-align: center;
+                        .discount{
+                            font-size: 10px;
+                            width: 30px;
+                            height: 18px;
+                            line-height: 18px;
+                            letter-spacing: 0.9948977px;
+                        }
+                        .discount_price{
+                            font-size: 11px;
+                            line-height: 14px;
+                            letter-spacing: 0.790391px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ad {
+            width: 100%;
+
+            .item {
+                width: calc(50% - 5px);
+                margin-top: 10px;
+                display: none;
+
+                img {
+                    width: 100%;
+                }
+
+                &:nth-child(1),
+                &:nth-child(2),
+                &:nth-child(3),
+                &:nth-child(4) {
+                    margin-top: 10px;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    #recommend {
+        margin-top: 20px;
+        margin-bottom: 45px;
+
+        .title {
+            height: 49px;
+            font-size: 12px;
+            line-height: 49px;
+            letter-spacing: 1.193877px;
+        }
+
+        .content {
+            padding: 30px;
+
+            .item {
+                margin-top: 10px;
+                width: calc(50% - 16px);
+
+                
+
+                &:nth-child(1),
+                &:nth-child(2),
+                &:nth-child(3),
+                &:nth-child(4) {
+                    margin-top: 30px;
+                    display: block;
+                }
+
+                &:nth-child(1),
+                &:nth-child(2){
+                    margin-top: 0px;
+                }
+
+                h3 {
+                    font-size: 11px;
+                    line-height: 14px;
+                    letter-spacing: 1.094388px;
+                    text-align: center;
+                }
+                .price{
+                    text-align: center;
+                    .discount{
+                        font-size: 10px;
+                        width: 30px;
+                        height: 18px;
+                        line-height: 18px;
+                        letter-spacing: 0.9948977px;
+                    }
+                    .discount_price{
+                        font-size: 11px;
+                        line-height: 14px;
+                        letter-spacing: 0.790391px;
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        .wrapper {
+            justify-content: center;
+    flex-wrap: wrap;
+
+            .f_logo {
+                display: none;
+            }
+
+            .f_menu {
+                margin-top: 30px;
+                width: 30%;
+
+                a {
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+
+            .add_line{
+                width: 100%;
+                text-align: center;
+                p{
+                    display: none;
+                }
+                .img{
+                    margin: auto;
+                }
+            }
+        }
+
+        #right {
+            margin-top: 30px;
+            height: 90px;
+            line-height: 90px;
+        }
+    }
 }

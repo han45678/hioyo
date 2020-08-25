@@ -1087,5 +1087,163 @@
   #header #mobile_button .icon {
     height: 2px;
   }
+  #banner .item {
+    height: 235px;
+  }
+  #main_category {
+    padding: 0 15px;
+    margin-top: 20px;
+  }
+  #main_category::after, #main_category::before {
+    display: none;
+  }
+  #main_category a {
+    line-height: 44px;
+    width: 79px;
+    height: 44px;
+    font-size: 11px;
+    border-radius: 10px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+  }
+  #discount {
+    margin-top: 24px;
+  }
+  #discount .main .title {
+    height: 49px;
+    font-size: 12px;
+    line-height: 49px;
+    letter-spacing: 1.193877px;
+  }
+  #discount .main .content {
+    padding: 30px;
+  }
+  #discount .main .content .item {
+    margin-top: 10px;
+    width: calc(50% - 16px);
+  }
+  #discount .main .content .item:nth-child(1), #discount .main .content .item:nth-child(2), #discount .main .content .item:nth-child(3), #discount .main .content .item:nth-child(4) {
+    margin-top: 30px;
+    display: block;
+  }
+  #discount .main .content .item .remainder {
+    width: 64px;
+    height: 21px;
+    font-size: 11px;
+    line-height: 21px;
+    letter-spacing: 1.094388px;
+    top: 10px;
+  }
+  #discount .main .content .item h3 {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1.094388px;
+    text-align: center;
+  }
+  #discount .main .content .item .price {
+    text-align: center;
+  }
+  #discount .main .content .item .price .discount {
+    font-size: 10px;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    letter-spacing: 0.9948977px;
+  }
+  #discount .main .content .item .price .discount_price {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.790391px;
+  }
+  #discount .ad {
+    width: 100%;
+  }
+  #discount .ad .item {
+    width: calc(50% - 5px);
+    margin-top: 10px;
+    display: none;
+  }
+  #discount .ad .item img {
+    width: 100%;
+  }
+  #discount .ad .item:nth-child(1), #discount .ad .item:nth-child(2), #discount .ad .item:nth-child(3), #discount .ad .item:nth-child(4) {
+    margin-top: 10px;
+    display: block;
+  }
+  #recommend {
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+  #recommend .title {
+    height: 49px;
+    font-size: 12px;
+    line-height: 49px;
+    letter-spacing: 1.193877px;
+  }
+  #recommend .content {
+    padding: 30px;
+  }
+  #recommend .content .item {
+    margin-top: 10px;
+    width: calc(50% - 16px);
+  }
+  #recommend .content .item:nth-child(1), #recommend .content .item:nth-child(2), #recommend .content .item:nth-child(3), #recommend .content .item:nth-child(4) {
+    margin-top: 30px;
+    display: block;
+  }
+  #recommend .content .item:nth-child(1), #recommend .content .item:nth-child(2) {
+    margin-top: 0px;
+  }
+  #recommend .content .item h3 {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 1.094388px;
+    text-align: center;
+  }
+  #recommend .content .item .price {
+    text-align: center;
+  }
+  #recommend .content .item .price .discount {
+    font-size: 10px;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    letter-spacing: 0.9948977px;
+  }
+  #recommend .content .item .price .discount_price {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.790391px;
+  }
+  #footer .wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #footer .wrapper .f_logo {
+    display: none;
+  }
+  #footer .wrapper .f_menu {
+    margin-top: 30px;
+    width: 30%;
+  }
+  #footer .wrapper .f_menu a {
+    font-size: 14px;
+    text-align: center;
+  }
+  #footer .wrapper .add_line {
+    width: 100%;
+    text-align: center;
+  }
+  #footer .wrapper .add_line p {
+    display: none;
+  }
+  #footer .wrapper .add_line .img {
+    margin: auto;
+  }
+  #footer #right {
+    margin-top: 30px;
+    height: 90px;
+    line-height: 90px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
