@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="wrapper">
-        <div class="f_logo"><img src="./image/logo-f.png" alt=""></div>
+        <div class="f_logo"><img src="../image/logo-f.png" alt=""></div>
         <div class="f_menu">
             <a href="">購買產品</a>
             <a href="">關於我們</a>
@@ -14,7 +14,7 @@
         <div class="add_line">
             <p>加入Line@</p>
             <div class="img">
-                <img src="./image/line.jpg" alt="">
+                <img src="../image/line.jpg" alt="">
             </div>
         </div>
     </div>

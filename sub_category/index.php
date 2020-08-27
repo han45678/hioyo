@@ -205,17 +205,6 @@
                             <li><a href="../sub_category">商品類別</a></li>
                         </ol>
                     </div>
-                    <div id="banner">
-                        <a href="" class="item">
-                            <img src="../image/banner.jpg" alt="banner">
-                        </a>
-                        <a href="" class="item">
-                            <img src="../image/banner.jpg" alt="banner">
-                        </a>
-                        <a href="" class="item">
-                            <img src="../image/banner.jpg" alt="banner">
-                        </a>
-                    </div>
                     <div id="product_list">
                         <a href="" class="item">
                             <div class="img">

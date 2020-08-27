@@ -27,9 +27,11 @@ $(document).ready(function () {
         });
     }
 
-    // var home = $("main").hasClass('home');
-
-    // if(home){
-
-    // }
+    if (ww <= 768) {
+        $('#category_menu_button').click(function () {
+            $(this).toggleClass("active");
+            $('#top_category_menu').toggleClass("active");
+        });
+    }
+    
 });

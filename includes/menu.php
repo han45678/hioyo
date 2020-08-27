@@ -5,40 +5,40 @@
     <nav>
         <ul>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
             <li>
-                <a href="">分類・分類・分類</a>
+                <a href="./main_category">分類・分類・分類</a>
             </li>
         </ul>
     </nav>
