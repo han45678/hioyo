@@ -1,7 +1,4 @@
-@font-face {
-	font-family: 'PingFangTC-Semibold';
-	src: url('../fonts/PingFang.ttc') format("ttc")
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
 html,
 body,
@@ -89,7 +86,7 @@ video {
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	font-family: "PingFangTC-Semibold";
+	font-family: 'Noto Sans TC', sans-serif;
 }
 
 article,
