@@ -26,4 +26,10 @@ $(document).ready(function () {
             ]
         });
     }
+
+    // var home = $("main").hasClass('home');
+
+    // if(home){
+
+    // }
 });

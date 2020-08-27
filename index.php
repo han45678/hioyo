@@ -8,55 +8,11 @@
 <body>
     <?php include './includes/topBar.php' ?>
     <?php include './includes/header.php' ?>
-    <main id="home">
+    <main class="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
-                    <div id="menu">
-                        <div class="title">
-                            全站商品分類
-                        </div>
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                                <li>
-                                    <a href="">分類・分類・分類</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <?php include './includes/menu.php' ?>
                 </div>
                 <div id="category_order" class="col-lg-10 col-md-12">
                     <div id="main_category">

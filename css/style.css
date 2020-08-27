@@ -134,7 +134,12 @@
   color: #C40E12;
 }
 
-#header #mobile_button {
+#header #mobile_button,
+#header #user {
+  display: none;
+}
+
+#menu {
   display: none;
 }
 
@@ -178,6 +183,10 @@
 
 #menu nav li a:hover::after {
   width: 100%;
+}
+
+.home #menu {
+  display: block;
 }
 
 #main_category a {
@@ -319,6 +328,81 @@
 
 #leaderboard ul li a .text .price::before {
   content: '$';
+}
+
+#product_list {
+  margin-top: 37px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#product_list .item {
+  display: block;
+  padding: 0 8px;
+  margin-top: 35px;
+  width: calc(33% - 16px);
+  position: relative;
+}
+
+#product_list .item:nth-child(1), #product_list .item:nth-child(2), #product_list .item:nth-child(3) {
+  margin-top: 0;
+}
+
+#product_list .item .img {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+#product_list .item .img img {
+  transition: 0.6s;
+  width: 100%;
+  object-fit: cover;
+}
+
+#product_list .item h3 {
+  color: #333335;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1.293367px;
+}
+
+#product_list .item .price {
+  margin-top: 10px;
+}
+
+#product_list .item .price .discount {
+  display: inline-block;
+  margin-right: 10px;
+  width: 39px;
+  height: 25px;
+  border: solid 1px #c40e12;
+  color: #c40e12;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 1.293367px;
+  border-radius: 3px;
+}
+
+#product_list .item .price .discount_price {
+  color: #c40e12;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 1.293367px;
+}
+
+#product_list .item .price .discount_price::before {
+  content: '$';
+}
+
+#product_list .item:hover .img img {
+  transform: scale(1.05);
 }
 
 #discount {
@@ -816,7 +900,31 @@
     height: 2px;
     background: #fff;
   }
+  #header #user {
+    display: inline-block;
+    width: 81px;
+    height: 26px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+  #header #user span {
+    position: relative;
+    top: -7.5px;
+    display: inline-block;
+    color: #c40e12;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.625px;
+    width: 45px;
+    text-align: center;
+  }
   #menu {
+    display: block;
     position: fixed;
     width: 187px;
     height: 100vh;
@@ -1087,6 +1195,15 @@
   #header #mobile_button .icon {
     height: 2px;
   }
+  #header #user {
+    width: 26px;
+    height: 26px;
+    right: 15px;
+    top: 15px;
+  }
+  #header #user span {
+    display: none;
+  }
   #banner .item {
     height: 235px;
   }
@@ -1125,6 +1242,9 @@
   #discount .main .content .item:nth-child(1), #discount .main .content .item:nth-child(2), #discount .main .content .item:nth-child(3), #discount .main .content .item:nth-child(4) {
     margin-top: 30px;
     display: block;
+  }
+  #discount .main .content .item:nth-child(1), #discount .main .content .item:nth-child(2) {
+    margin-top: 0;
   }
   #discount .main .content .item .remainder {
     width: 64px;
