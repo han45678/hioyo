@@ -66,7 +66,7 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -79,7 +79,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -92,7 +92,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -105,7 +105,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -118,7 +118,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -131,7 +131,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -144,7 +144,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -157,7 +157,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -170,7 +170,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -183,7 +183,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="../product">
                                     <div class="photo">
                                         <img src="../image/p1.jpg" alt="">
                                     </div>
@@ -206,7 +206,7 @@
                         </ol>
                     </div>
                     <div id="product_list">
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -218,7 +218,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -230,7 +230,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -242,7 +242,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -254,7 +254,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -266,7 +266,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -278,7 +278,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -290,7 +290,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>
@@ -302,7 +302,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="" class="item">
+                        <a href="../product" class="item">
                             <div class="img">
                                 <img src="../image/p2.jpg" alt="">
                             </div>

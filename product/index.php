@@ -207,7 +207,47 @@
                             <li><a href="../product">商品名稱</a></li>
                         </ol>
                     </div>
-                    <div></div>
+                    <div id="product" class="row">
+                        <div class="photo col-lg-6">
+                            <div class="big">
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                            </div>
+                            <div class="small">
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                                <div class="item"><img src="../image/p4.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="text col-lg-6">
+                            <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                            <div class="price">$1999 (300PV | 0DC)</div>
+                            <div class="quantity row">
+                                <div class="col-4">數量</div>
+                                <div class="col-8">
+                                    <button>-</button>
+                                    <input type="text" value="1">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="unit row">
+                                <div class="col-4">TOTAL(數量)</div>
+                                <div class="col-8">＄1999 (瓶)</div>
+                            </div>
+                            <div class="description">
+                                <div class="title">商品說明</div>
+                                <p>商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明商品文字敘述說明</p>
+                            </div>
+                            <button class="add">加入購物車</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

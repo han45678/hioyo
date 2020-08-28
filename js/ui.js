@@ -4,6 +4,25 @@ $(document).ready(function () {
         autoplay: true,
         arrows: false,
     });
+
+
+    $('#product .big').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '#product .small'
+    });
+
+    $('#product .small').slick({
+        asNavFor: '#product .big',
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        variableWidth: true,
+        focusOnSelect: true
+    });
+
+
     $("#mobile_button").click(function () {
         $(this).toggleClass("active");
         $('#menu').toggleClass("active");
@@ -16,14 +35,13 @@ $(document).ready(function () {
             infinite: true,
             variableWidth: true,
             responsive: [{
-                    breakpoint: 767,
-                    settings: {
-                        arrows: true,
-                        variableWidth: false,
-                        slidesToShow: 3
-                    }
+                breakpoint: 767,
+                settings: {
+                    arrows: true,
+                    variableWidth: false,
+                    slidesToShow: 3
                 }
-            ]
+            }]
         });
     }
 
@@ -33,5 +51,5 @@ $(document).ready(function () {
             $('#top_category_menu').toggleClass("active");
         });
     }
-    
+
 });
