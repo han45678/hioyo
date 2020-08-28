@@ -10,7 +10,13 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        asNavFor: '#product .small'
+        asNavFor: '#product .small',
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                
+            }
+        }]
     });
 
     $('#product .small').slick({
@@ -19,14 +25,20 @@ $(document).ready(function () {
         arrows: true,
         centerMode: true,
         variableWidth: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                //slidesToShow: 5
+            }
+        }]
     });
-
 
     $("#mobile_button").click(function () {
         $(this).toggleClass("active");
         $('#menu').toggleClass("active");
     });
+
     var ww = $(window).width();
 
     if (ww <= 991) {
@@ -51,5 +63,24 @@ $(document).ready(function () {
             $('#top_category_menu').toggleClass("active");
         });
     }
+
+    $("#product_bookmark .title #features").click(function () {
+        $('#product_bookmark .title .item').removeClass("active");
+        $("#product_bookmark .title #features").addClass("active");
+        $('#product_bookmark .content .item').removeClass("active");
+        $("#product_bookmark .content #features_content").addClass("active");
+    });
+    $("#product_bookmark .title #specification").click(function () {
+        $('#product_bookmark .title .item').removeClass("active");
+        $("#product_bookmark .title #specification").addClass("active");
+        $('#product_bookmark .content .item').removeClass("active");
+        $("#product_bookmark .content #specification_content").addClass("active");
+    });
+    $("#product_bookmark .title #return").click(function () {
+        $('#product_bookmark .title .item').removeClass("active");
+        $("#product_bookmark .title #return").addClass("active");
+        $('#product_bookmark .content .item').removeClass("active");
+        $("#product_bookmark .content #return_content").addClass("active");
+    });
 
 });

@@ -8,7 +8,7 @@
 <body>
     <?php include './includes/topBar.php' ?>
     <?php include './includes/header.php' ?>
-    <main class="home">
+    <main id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">

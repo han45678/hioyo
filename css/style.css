@@ -195,7 +195,7 @@
   width: 100%;
 }
 
-.home #menu {
+#home #menu {
   display: block;
 }
 
@@ -982,6 +982,16 @@
   display: none;
 }
 
+#product .photo {
+  max-width: 100%;
+}
+
+#product .photo .big {
+  position: relative;
+  max-width: 445px;
+  margin: auto;
+}
+
 #product .photo .big .item {
   border: solid 1px #979797;
   width: 100%;
@@ -994,11 +1004,23 @@
   object-fit: cover;
 }
 
+#product .photo .big::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #product .photo .small {
-  margin-top: 15px;
   padding: 0 30px;
   display: flex;
   position: relative;
+  justify-content: center;
+  max-width: 445px;
+  margin: 15px auto auto auto;
 }
 
 #product .photo .small .item {
@@ -1145,6 +1167,70 @@
   letter-spacing: 1.293367px;
   border-radius: 30px;
   margin-top: 60px;
+  transition: 0.6s;
+}
+
+#product .text .add:hover {
+  color: #D0021B;
+  border: 1px solid #D0021B;
+  background: transparent;
+}
+
+#product_bookmark {
+  margin-top: 50px;
+}
+
+#product_bookmark .title {
+  display: flex;
+  justify-content: right;
+  border-bottom: 1px solid #979797;
+}
+
+#product_bookmark .title .item {
+  font-size: 13px;
+  letter-spacing: 1.99px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #333335;
+  position: relative;
+  cursor: pointer;
+}
+
+#product_bookmark .title .item.active::after {
+  content: '';
+  display: block;
+  height: 7px;
+  width: 100%;
+  background-color: #C40E12;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#product_bookmark .content .item {
+  display: none;
+  margin: 35px 0;
+}
+
+#product_bookmark .content .item.active {
+  display: block;
+}
+
+#product_bookmark .content .item img {
+  max-width: 100%;
+  margin-bottom: 35px;
+}
+
+#product_bookmark .content .item img:last-child {
+  margin-bottom: 0;
+}
+
+#product_bookmark .content .item p {
+  font-size: 13px;
+  letter-spacing: 1.99px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1407,6 +1493,9 @@
   }
   #path {
     order: 2;
+  }
+  #category #path {
+    order: unset;
   }
   #product_list {
     order: 3;
