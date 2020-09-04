@@ -260,7 +260,32 @@
                                 <img src="../image/p5.jpg" alt="">
                             </div>
                             <div id="fspecification_content" class="item">
-
+                                <table>
+                                    <tr>
+                                        <td>品牌名稱</td>
+                                        <td><span>利奇</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>品牌類別</td>
+                                        <td><span>類別</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>包裝組合</td>
+                                        <td>數量/盒</td>
+                                    </tr>
+                                    <tr>
+                                        <td>功效</td>
+                                        <td>功效敘述</td>
+                                    </tr>
+                                    <tr>
+                                        <td>適用於</td>
+                                        <td>適用範圍敘述</td>
+                                    </tr>
+                                    <tr>
+                                        <td>商品規格</td>
+                                        <td>產品規格說明</td>
+                                    </tr>
+                                </table>
                             </div>
                             <div id="return_content" class="item">
                                 <p>

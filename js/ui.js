@@ -74,7 +74,7 @@ $(document).ready(function () {
         $('#product_bookmark .title .item').removeClass("active");
         $("#product_bookmark .title #specification").addClass("active");
         $('#product_bookmark .content .item').removeClass("active");
-        $("#product_bookmark .content #specification_content").addClass("active");
+        $("#product_bookmark .content #fspecification_content").addClass("active");
     });
     $("#product_bookmark .title #return").click(function () {
         $('#product_bookmark .title .item').removeClass("active");

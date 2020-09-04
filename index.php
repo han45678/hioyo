@@ -46,7 +46,72 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="./product/">
+                                    <div class="photo">
+                                        <img src="./image/p1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            ABCDEFGHIJK
+                                        </h3>
+                                        <span class="price">1999</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product/">
+                                    <div class="photo">
+                                        <img src="./image/p1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            ABCDEFGHIJK
+                                        </h3>
+                                        <span class="price">1999</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product/">
+                                    <div class="photo">
+                                        <img src="./image/p1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            ABCDEFGHIJK
+                                        </h3>
+                                        <span class="price">1999</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product/">
+                                    <div class="photo">
+                                        <img src="./image/p1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            ABCDEFGHIJK
+                                        </h3>
+                                        <span class="price">1999</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product/">
+                                    <div class="photo">
+                                        <img src="./image/p1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>
+                                            ABCDEFGHIJK
+                                        </h3>
+                                        <span class="price">1999</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product/">
                                     <div class="photo">
                                         <img src="./image/p1.jpg" alt="">
                                     </div>
@@ -72,7 +137,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="./product/">
                                     <div class="photo">
                                         <img src="./image/p1.jpg" alt="">
                                     </div>
@@ -85,7 +150,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="./product/">
                                     <div class="photo">
                                         <img src="./image/p1.jpg" alt="">
                                     </div>
@@ -98,72 +163,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
-                                    <div class="photo">
-                                        <img src="./image/p1.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>
-                                            ABCDEFGHIJK
-                                        </h3>
-                                        <span class="price">1999</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="photo">
-                                        <img src="./image/p1.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>
-                                            ABCDEFGHIJK
-                                        </h3>
-                                        <span class="price">1999</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="photo">
-                                        <img src="./image/p1.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>
-                                            ABCDEFGHIJK
-                                        </h3>
-                                        <span class="price">1999</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="photo">
-                                        <img src="./image/p1.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>
-                                            ABCDEFGHIJK
-                                        </h3>
-                                        <span class="price">1999</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <div class="photo">
-                                        <img src="./image/p1.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>
-                                            ABCDEFGHIJK
-                                        </h3>
-                                        <span class="price">1999</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
+                                <a href="./product/">
                                     <div class="photo">
                                         <img src="./image/p1.jpg" alt="">
                                     </div>
@@ -185,7 +185,33 @@
                                 限時優惠專區
                             </div>
                             <div class="content">
-                                <a href="" class="item">
+                                <a href="./product/" class="item">
+                                    <div class="remainder">最後50組</div>
+                                    <div class="img">
+                                        <img src="./image/p2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                        <div class="price">
+                                            <span class="discount">折扣</span>
+                                            <span class="discount_price">1999</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./product/" class="item">
+                                    <div class="remainder">最後50組</div>
+                                    <div class="img">
+                                        <img src="./image/p2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                        <div class="price">
+                                            <span class="discount">折扣</span>
+                                            <span class="discount_price">1999</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="./product/" class="item">
                                     <div class="remainder">最後50組</div>
                                     <div class="img">
                                         <img src="./image/p2.jpg" alt="">
@@ -211,7 +237,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="" class="item">
+                                <a href="./product/" class="item">
                                     <div class="remainder">最後50組</div>
                                     <div class="img">
                                         <img src="./image/p2.jpg" alt="">
@@ -224,33 +250,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="" class="item">
-                                    <div class="remainder">最後50組</div>
-                                    <div class="img">
-                                        <img src="./image/p2.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
-                                        <div class="price">
-                                            <span class="discount">折扣</span>
-                                            <span class="discount_price">1999</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="" class="item">
-                                    <div class="remainder">最後50組</div>
-                                    <div class="img">
-                                        <img src="./image/p2.jpg" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
-                                        <div class="price">
-                                            <span class="discount">折扣</span>
-                                            <span class="discount_price">1999</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="" class="item">
+                                <a href="./product/" class="item">
                                     <div class="remainder">最後50組</div>
                                     <div class="img">
                                         <img src="./image/p2.jpg" alt="">
@@ -291,7 +291,7 @@
                             猜你喜歡
                         </div>
                         <div class="content">
-                            <a href="" class="item">
+                            <a href="./product/" class="item">
                                 <div class="img">
                                     <img src="./image/p2.jpg" alt="">
                                 </div>
@@ -303,7 +303,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="" class="item">
+                            <a href="./product/" class="item">
                                 <div class="img">
                                     <img src="./image/p2.jpg" alt="">
                                 </div>
@@ -315,7 +315,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="" class="item">
+                            <a href="./product/" class="item">
                                 <div class="img">
                                     <img src="./image/p2.jpg" alt="">
                                 </div>
@@ -327,7 +327,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="" class="item">
+                            <a href="./product/" class="item">
                                 <div class="img">
                                     <img src="./image/p2.jpg" alt="">
                                 </div>
@@ -339,7 +339,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="" class="item">
+                            <a href="./product/" class="item">
                                 <div class="img">
                                     <img src="./image/p2.jpg" alt="">
                                 </div>
@@ -364,7 +364,7 @@
                                 <div class="text">
                                     <p>特賣專區</p>
                                     <p>限時買一送一</p>
-                                    <a href="">
+                                    <a href="./product/">
                                         <span>立即搶購</span>
                                         <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                             <desc>Created with Lunacy</desc>
@@ -381,7 +381,7 @@
                                 <div class="text">
                                     <p>特賣專區</p>
                                     <p>限時買一送一</p>
-                                    <a href="">
+                                    <a href="./product/">
                                         <span>立即搶購</span>
                                         <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                             <desc>Created with Lunacy</desc>
@@ -398,7 +398,7 @@
                                 <div class="text">
                                     <p>特賣專區</p>
                                     <p>限時買一送一</p>
-                                    <a href="">
+                                    <a href="./product/">
                                         <span>立即搶購</span>
                                         <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                             <desc>Created with Lunacy</desc>
@@ -415,7 +415,7 @@
                                 <div class="text">
                                     <p>特賣專區</p>
                                     <p>限時買一送一</p>
-                                    <a href="">
+                                    <a href="./product/">
                                         <span>立即搶購</span>
                                         <svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                                             <desc>Created with Lunacy</desc>
