@@ -231,7 +231,7 @@
                             <div class="price">$1999 (300PV | 0DC)</div>
                             <div class="quantity row">
                                 <div class="col-4">數量</div>
-                                <div class="col-8">
+                                <div class="col-8 pad-right">
                                     <button>-</button>
                                     <input type="text" value="1">
                                     <button>+</button>
@@ -239,7 +239,7 @@
                             </div>
                             <div class="unit row">
                                 <div class="col-4">TOTAL(數量)</div>
-                                <div class="col-8">＄1999 (瓶)</div>
+                                <div class="col-8 pad-right">＄1999 (瓶)</div>
                             </div>
                             <div class="description">
                                 <div class="title">商品說明</div>
@@ -318,6 +318,73 @@
                                     本公司對於所販售具遞延性之商品或服務，消費者權益均受保障。如因合作廠商無法提供商品或服務，請與本公司聯繫辦理退貨或換成等值商品。
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div id="recommend">
+                        <div class="title">
+                            你剛剛瀏覽過
+                        </div>
+                        <div class="content">
+                            <a href="./product/" class="item">
+                                <div class="img">
+                                    <img src="../image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./product/" class="item">
+                                <div class="img">
+                                    <img src="../image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./product/" class="item">
+                                <div class="img">
+                                    <img src="../image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./product/" class="item">
+                                <div class="img">
+                                    <img src="../image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="./product/" class="item">
+                                <div class="img">
+                                    <img src="../image/p2.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h3>【商品分類】- 商品名稱ABCDEFGHIJK</h3>
+                                    <div class="price">
+                                        <span class="discount">折扣</span>
+                                        <span class="discount_price">1999</span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

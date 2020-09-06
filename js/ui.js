@@ -40,6 +40,19 @@ $(document).ready(function () {
     });
 
     var ww = $(window).width();
+    var $window = $(window);
+    var trigger_size = [991,767];
+  
+    $window.resize(function () {
+      trigger_size.forEach(function (size) {
+        if (ww > size) {
+          ($window.width() <= size) ? location.reload(): "";
+        } else {
+          ($window.width() > size) ? location.reload(): "";
+        }
+      });
+    });
+    
 
     if (ww <= 991) {
         $('#main_category').slick({
